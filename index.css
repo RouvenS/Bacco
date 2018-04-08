@@ -8,3 +8,8 @@ footer{
   padding: 5px 0;
   text-align: center;
 }
+/* APP DOWNLOAD LINK */
+.app-symbol img{
+  height: 150px;
+  width: auto;
+}
