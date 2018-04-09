@@ -23,3 +23,7 @@ h1:after {
     margin: 0 auto;
     margin-top: 15px;
 }
+
+.row main {
+  padding-left: 25px;
+}
