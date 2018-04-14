@@ -45,3 +45,26 @@ h1:after {
 .navbar-dark .navbar-brand {
     color: #ed028c;
 }
+.gericht .info {
+  width: 95%;
+}
+.gericht .info div {
+  float: left;
+}
+.gericht .nummer{
+  font-weight: bold;
+  padding-right: 15px;
+}
+.gericht .name{
+  font-weight: bold;
+  padding-right: 15px;
+}
+.gericht .zutaten{
+
+}
+.gericht .preis{
+  float: right;
+  width: 5%;
+  text-align: center;
+  font-weight: bold;
+}
