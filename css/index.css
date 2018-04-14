@@ -100,17 +100,6 @@ h1:after {
   color: #ed028c;
 }
 .strike {
-  text-decoration: line-through;
-  color: #ed028c;
-}
-.strike-in {
-  color: #212529;
-}
-
-.inner {
-    color: green;
-}
-.outer {
-    color: red;
+    font-weight: bold;
     text-decoration: line-through;
 }
