@@ -46,7 +46,7 @@ h1:after {
     color: #ed028c;
 }
 .gericht .info {
-  width: 95%;
+  width: 85%;
 }
 .gericht .info div {
   float: left;
@@ -60,11 +60,11 @@ h1:after {
   padding-right: 15px;
 }
 .gericht .zutaten{
-
+  font-size: 70%;
 }
 .gericht .preis{
   float: right;
-  width: 5%;
+  width: 15%;
   text-align: center;
   font-weight: bold;
 }
