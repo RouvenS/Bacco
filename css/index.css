@@ -45,8 +45,12 @@ h1:after {
 .navbar-dark .navbar-brand {
     color: #ed028c;
 }
- .gericht .info {
-  width: 90%;
+.gericht .info {
+  width: 85%;
+  float: left;
+}
+.gericht .info2 {
+  width: 80%;
   float: left;
 }
 .gericht .nummer{
@@ -63,9 +67,18 @@ h1:after {
 }
 .gericht .preis{
   float: left;
-  width: 10%;
+  width: 15%;
   text-align: center;
   font-weight: bold;
+  font-size: 90%;
+}
+
+.gericht .preis2{
+  float: left;
+  width: 20%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 80%;
 }
 .gericht:nth-of-type(even){
     background-color: #f3f3f3;
@@ -75,18 +88,18 @@ h1:after {
   font-size: 50%;
   vertical-align: super;
 }
-
 .gericht::after {
   content: "";
   display: block;
   clear: both;
 }
-
 .card-body {
     padding: 10px;
 }
-
 .colored {
   color: #ed028c;
   font-size: 120%;
 }
+/* .preis2 {
+  display: block;
+} */
