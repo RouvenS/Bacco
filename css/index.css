@@ -28,17 +28,15 @@ h1:after {
   padding-left: 25px;
 }
 
-.btn-success {
+.app-link {
     color: #fff;
     background-color: #ed028c;
     border-color: #ed028c;
 }
 
-.btn-success:hover,
-.btn-success:focus,
-.btn-success:active,
-.btn-success:visited,
-.btn-success:link {
+.app-link:hover,
+.app-link:focus,
+.app-link:active{
     color: #fff;
     background-color: #cc087b;
     border-color: #cc087b;
