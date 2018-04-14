@@ -52,6 +52,7 @@ h1:after {
 .gericht .nummer{
   font-weight: bold;
   padding-right: 15px;
+  padding-left: 5px;
 }
 .gericht .name{
   font-weight: bold;
@@ -66,6 +67,21 @@ h1:after {
   text-align: center;
   font-weight: bold;
 }
-.gericht:nth-of-type(odd) div{
+.gericht:nth-of-type(even){
     background-color: #f3f3f3;
+}
+.hoch {
+  font-weight: normal;
+  font-size: 50%;
+  vertical-align: super;
+}
+
+.gericht::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.card-body {
+    padding: 10px;
 }
