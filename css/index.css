@@ -96,6 +96,21 @@ h1:after {
   color: #ed028c;
   font-size: 120%;
 }
-/* .preis2 {
-  display: block;
-} */
+.colored-s {
+  color: #ed028c;
+}
+.strike {
+  text-decoration: line-through;
+  color: #ed028c;
+}
+.strike-in {
+  color: #212529;
+}
+
+.inner {
+    color: green;
+}
+.outer {
+    color: red;
+    text-decoration: line-through;
+}
