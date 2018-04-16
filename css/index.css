@@ -96,6 +96,11 @@ h1:after {
   color: #ed028c;
   font-size: 120%;
 }
+.headline {
+  color: #ed028c;
+  font-size: 120%;
+  text-decoration: underline;
+}
 .colored-s {
   color: #ed028c;
 }
